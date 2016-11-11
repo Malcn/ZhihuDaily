@@ -1,0 +1,122 @@
+*{ margin: 0;padding: 0;box-sizing:border-box;}
+html {font-size: 62.5%;}
+.cursor{cursor: pointer;}
+.app{position: relative;width: 640px;margin: 0 auto;background-color:#FFF;overflow:hidden;}
+.h_640 {height: 640px;}
+.w_640 {width: 640px;}
+.hauto {height: 100%;}
+.cursor{cursor: pointer;}
+[v-cloak] {display: none;}
+/*首页轮播*/
+.topp {position:absolute;top: 20px;text-align: center; color: #f7f6f6;width: 100%; font-size: 3.2rem }
+.bagimg{background:no-repeat;background-position:center}
+ul{
+	list-style:none outside none;
+	margin: 0;
+    padding: 0;
+}
+.topul li{margin: 10px 0;}
+.topul p{line-height: 50px; font-size: 2.2rem }
+.week{
+	color: #767676;
+}
+.content p{ }
+.itemdiv {box-shadow: rgba(0, 0, 0, 0.247059) 0px 0px 4px;cursor: pointer;height: 120px;}
+.itemdiv img{height: 120px;width: 120px;}
+.itemdiv p{position: absolute;margin-top: 20px; display: inline-block;padding-left:20px;color:#333}
+.list-header {
+		height: 100px;
+		font-style: normal;
+		color: #fff;
+		background-color: #00a2ea;
+	}
+	
+	.list-header p {
+		margin-left: 100px;
+		display: inline-block;
+		color: #fff;
+		font-size: 3.6rem;
+		line-height: 100px;
+	}
+	
+	.imglist {
+		display: inline-block;
+		background: url(../assets/images/list.png);
+		height: 30px;
+		width: 30px;
+		background-size: 100%;
+		position: absolute;
+		margin-left: 20px;
+		top: 40px;
+	}
+	.imgback {
+		display: inline-block;
+		background: url(../assets/images/back.png);
+		height: 30px;
+		width: 30px;
+		background-size: 100%;
+		position: absolute;
+		margin-left: 20px;
+		top: 40px;
+	}
+	.imgcomment{
+		display: inline-block;
+		background: url(../assets/images/comment.png);
+		height: 50px;
+		width: 100px;
+		background-size: 40%;
+		position: absolute;
+		right: 120px;
+		top: 30px;
+		background-repeat: no-repeat;
+		padding-left: 50px;
+		line-height: 50px;
+		background-position-y: center;
+		font-size: 2.2rem;
+	}
+	.imgpraise{
+		display: inline-block;
+		background: url(../assets/images/praise.png);
+		height: 50px;
+		width: 100px;
+		background-size: 40%;
+		position: absolute;
+		right: 10px;
+		top: 30px;
+		background-repeat: no-repeat;
+		padding-left: 50px;
+		line-height: 50px;
+		background-position-y: center;
+		font-size: 2.2rem;
+	}
+.default-header{
+   	height: 100px;
+	font-style: normal;
+	color: #fff;
+	background-color:#00a2ea;
+}
+.sidebar{
+	position: absolute;
+	min-height: 600px;
+    max-height:800px;
+    width: 200px;
+    background-color: #fff;
+    top: 0px;
+	overflow:auto;
+	z-index:10000;
+
+}
+.sidebar p{
+ line-height:50px;
+ font-size: 2.2rem;
+ color: #716969;
+}
+ 
+.divshadow{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(34, 34, 34, 0.72);    
+}

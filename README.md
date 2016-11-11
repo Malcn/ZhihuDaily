@@ -8,8 +8,9 @@ npm i
 
 npm run server
 
-# serve at localhost:8010
 npm run start
+
+### serve at localhost:8010
 
 ## Reference
 

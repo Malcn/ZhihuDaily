@@ -6,6 +6,8 @@
 安装依赖包
 npm i
 
+npm run dev
+
 npm run server
 
 npm run start
